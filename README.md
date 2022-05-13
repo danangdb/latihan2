@@ -1,6 +1,10 @@
 # sampling_data
-mkdir data # membuat folder data
-cd data # berpindah ke folder data
+# membuat folder data
+mkdir data
+
+# berpindah ke folder data
+cd data 
+
 wget https://github.com/labusiam/dataset/raw/main/weather_data.xlsx # impor data excel
 in2csv weather_data.xlsx --sheet "weather_2014" > weather_2014.csv #melalukan convert sheet weather_2014 dan menyimpannya pada file weather_2014.csv
 in2csv weather_data.xlsx --sheet "weather_2015" > weather_2015.csv #melalukan convert sheet weather_2014 dan menyimpannya pada file weather_2015.csv
