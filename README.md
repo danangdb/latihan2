@@ -1,4 +1,4 @@
-5# sampling_data
+# sampling_data
 mkdir data # membuat folder data
 cd data # berpindah ke folder data
 wget https://github.com/labusiam/dataset/raw/main/weather_data.xlsx # impor data excel
